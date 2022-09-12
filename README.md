@@ -32,6 +32,6 @@ Select the file ```tts.py``` and run it. The message will determine if your end-
 
 ## Connecting to the Database
 
-
+The file ```columbia_student_resource.py``` is a simple, starter REST resource.
 
 
