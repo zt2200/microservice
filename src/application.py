@@ -6,6 +6,7 @@ from flask_cors import CORS
 
 # Create the Flask application object.
 app = Flask(__name__)
+
 CORS(app)
 
 
@@ -36,7 +37,6 @@ def get_student_by_uni(uni):
 
     return rsp
 
-
-
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001)
+    app.run(host="0.0.0.0", port=5011)
+
